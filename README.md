@@ -1,5 +1,3 @@
 # Game Of Realms
 
-_Coming soon._
-
-https://gno.land/game-of-realms
+Go here -> https://github.com/gnolang/gno/issues/390
