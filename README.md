@@ -8,6 +8,8 @@ Once the necessary tools to start phase two are ready, we’ll open up the compe
 
 If you want to stack ATOM rewards and play a key role in the success of Gno.land and web3, read more about Game of Realms or open a [PR](https://github.com/gnolang/gno/) today.
 
+⚠️ We ask that you tag your PR with the GoR label!
+
 ## Phase I. (ongoing)
 
 <details>
