@@ -11,7 +11,6 @@ repos = [
 
 def write_to_file(repo,data):
     f = open('gor_contributors.txt', 'a')
-    data_str=''
     f.write(repo)
     f.write('\n\n') # formatting
     f.write('\n'.join(data))
