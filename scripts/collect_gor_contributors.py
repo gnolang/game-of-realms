@@ -2,26 +2,23 @@
 
 import requests
 
+# eligible GoR repositories
 repos = [
     'awesome-gno', 
     'gno',
     'gno-by-example',
 ]
 
-def write_to_file(repo, data, counter):
+def write_to_file(repo, data):
     f = open('gor_contributors.txt', 'a')
 
-    if counter == 0:
-        f.write(f'game of realms contributor list')
-        counter += 1
-
     f.write(f'===============\r{repo}\r===============')
-    f.write('\n\n') # formatting
+    f.write('\n\n')
     f.write('\n'.join(data))
-    f.write('\n\n') # formatting
+    f.write('\n\n')
     f.close()
 
-def get_contributors(repo, counter):
+def get_contributors(repo):
     url = f'https://api.github.com/repos/gnolang/{repo}/pulls?state=closed&page=1'
 
     resp = requests.get(url)
@@ -42,11 +39,10 @@ def get_contributors(repo, counter):
         print(f"request failed with status code {resp.status_code}")
 
     # final operation
-    write_to_file(repo, users_no_dupes, counter)
+    write_to_file(repo, users_no_dupes)
 
 if __name__ == '__main__':
-    counter = 0
     print(f'[+] collecting GoR contributors across {len(repos)} repos')
     for repo in repos:
-        get_contributors(repo, counter)
+        get_contributors(repo)
     print(f'[*] successfully collected GoR contributors')
