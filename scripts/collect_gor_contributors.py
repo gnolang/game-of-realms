@@ -36,7 +36,7 @@ def get_contributors(repo):
             users = [item['user']['login'] for item in data]
             users_no_dupes = list(dict.fromkeys(users))
     else:
-        print(f"request failed with status code {resp.status_code}")
+        print(f'request failed with status code {resp.status_code}')
 
     # final operation
     write_to_file(repo, users_no_dupes)
