@@ -1,4 +1,11 @@
-# Manfred Touron
+---
+name: "Manfred Touron"
+github_handle: "moul"
+twitter_handle: "moul"
+gnoland_username: "manfred"
+gnoland_pubkey: "g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq"
+---
+
 Welcome to my (manual) Gno resume. This is a demo intended for any Gno contributor to present themselves similarly.
 
 We are planning to create an off-chain equivalent of the upcoming on-chain Proof of Contribution and Review DAO. This will involve incorporating both scripts and manual entries.
