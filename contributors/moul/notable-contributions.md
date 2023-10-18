@@ -1,0 +1,5 @@
+- [gnolang/gno#136](https://github.com/gnolang/gno/pull/136) - foo20, a grc20 example smart contract
+- [gnolang/gno#126](https://github.com/gnolang/gno/pull/126) - feat: use the new Precompile in gnodev and in the addpkg/execution flow (2/2)
+- [gnolang/gno#119](https://github.com/gnolang/gno/pull/119) - add a Gno2Go precompiler (1/2)
+- [gnolang/gno#112](https://github.com/gnolang/gno/pull/112) - feat: add 'gnokey maketx --broadcast' option
+- [gnolang/gno#110](https://github.com/gnolang/gno/pull/110), [gnolang/gno#109](https://github.com/gnolang/gno/pull/109), [gnolang/gno#108](https://github.com/gnolang/gno/pull/108), [gnolang/gno#106](https://github.com/gnolang/gno/pull/106), [gnolang/gno#103](https://github.com/gnolang/gno/pull/103), [gnolang/gno#102](https://github.com/gnolang/gno/pull/102), [gnolang/gno#101](https://github.com/gnolang/gno/pull/101) - various chores.
