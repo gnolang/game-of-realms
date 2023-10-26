@@ -25,7 +25,6 @@ main() {
             fi
 
             set -e
-            echo "_______________________________________________________________"
             if [ ! -z "${name}" ]; then
                 echo "# ${name} (${github_handle})"
             else

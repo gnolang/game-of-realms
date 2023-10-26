@@ -1,6 +1,5 @@
-_______________________________________________________________
 # Manfred Touron (moul)
-Links: github=[moul](https://github.com/moul) username=[manfred](https://gno.land/r/users:manfred) addr=g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq) twitter=[moul](https://x.com/moul) 
+Links: github=[@moul](https://github.com/moul) username=[@manfred](https://gno.land/r/users:manfred) addr=g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq) twitter=[@moul](https://x.com/moul) 
 
 Welcome to my (manual) Gno resume. This is a demo intended for any Gno contributor to present themselves similarly.
 
