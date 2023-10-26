@@ -31,13 +31,6 @@ main() {
                 echo "# ${github_handle}"
             fi
 
-            printf "Links: "
-            if [ ! -z "${github_handle}" ]; then printf "github=[@${github_handle}](https://github.com/${github_handle}) "; fi
-            if [ ! -z "${gnoland_username}" ]; then printf "username=[@${gnoland_username}](https://gno.land/r/users:${gnoland_username}) "; fi
-            if [ ! -z "${gnoland_pubkey}" ]; then printf "addr=${gnoland_pubkey}) "; fi
-            if [ ! -z "${twitter_handle}" ]; then printf "twitter=[@${twitter_handle}](https://x.com/${twitter_handle}) "; fi
-            echo
-
             if [ -f profile.md ]; then
                 cat profile.md | \
                     sed '1{/^---$/!q;};1,/^---$/d' # remove front matter
@@ -48,6 +41,13 @@ main() {
                 echo "## Notable Contributions"
                 cat notable-contributions.md
             fi
+
+            echo "## Links:"
+            if [ ! -z "${gnoland_pubkey}" ]; then echo "- addr: \`${gnoland_pubkey}\`"; fi
+            if [ ! -z "${gnoland_username}" ]; then echo "- \`r/users\`: [@${gnoland_username}](https://gno.land/r/users:${gnoland_username})"; fi
+            if [ ! -z "${gnoland_pubkey}" ]; then echo "- gnoscan: [${gnoland_pubkey}](https://gnoscan.io/accounts/${gnoland_pubkey})"; fi
+            if [ ! -z "${github_handle}" ]; then echo "- github: [@${github_handle}](https://github.com/${github_handle})"; fi
+            if [ ! -z "${twitter_handle}" ]; then echo "- twitter: [@${twitter_handle}](https://x.com/${twitter_handle})"; fi
 
             # XXX: add github-contributions
             # XXX: add other sources of metrics

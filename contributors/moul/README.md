@@ -1,5 +1,4 @@
 # Manfred Touron (moul)
-Links: github=[@moul](https://github.com/moul) username=[@manfred](https://gno.land/r/users:manfred) addr=g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq) twitter=[@moul](https://x.com/moul) 
 
 Welcome to my (manual) Gno resume. This is a demo intended for any Gno contributor to present themselves similarly.
 
@@ -17,3 +16,9 @@ In the future, we expect most of these things to be on-chain with vote systems, 
 - [gnolang/gno#119](https://github.com/gnolang/gno/pull/119) - add a Gno2Go precompiler (1/2)
 - [gnolang/gno#112](https://github.com/gnolang/gno/pull/112) - feat: add 'gnokey maketx --broadcast' option
 - [gnolang/gno#110](https://github.com/gnolang/gno/pull/110), [gnolang/gno#109](https://github.com/gnolang/gno/pull/109), [gnolang/gno#108](https://github.com/gnolang/gno/pull/108), [gnolang/gno#106](https://github.com/gnolang/gno/pull/106), [gnolang/gno#103](https://github.com/gnolang/gno/pull/103), [gnolang/gno#102](https://github.com/gnolang/gno/pull/102), [gnolang/gno#101](https://github.com/gnolang/gno/pull/101) - various chores.
+## Links:
+- addr: `g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq`
+- `r/users`: [@manfred](https://gno.land/r/users:manfred)
+- gnoscan: [g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq](https://gnoscan.io/accounts/g1u7y667z64x2h7vc6fmpcprgey4ck233jaww9zq)
+- github: [@moul](https://github.com/moul)
+- twitter: [@moul](https://x.com/moul)
