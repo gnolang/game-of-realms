@@ -7,4 +7,4 @@ We anticipate that once the necessary tools are available, we’ll expand the no
 If you want to play a key role in the success of gno.land and web3, and become a notable contributor in our ecosystem, joining the Game of Realms is a great way to get stated. We recommend you identify where you can make the biggest impact, and open a [PR](https://github.com/gnolang/gno/). You can document your contributions profile in the Hackerspace repository that will be considered upon review over time to qualify for inclusion in the notable contribution folder and identified as a Game of Realms contributor. 
 
 
-We will be building out the strucutre of this Readme to help support you in our contributor Game of Realms journey. 
+We will be building out the structure of this Readme to help support you in our contributor Game of Realms journey. 
