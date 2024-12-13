@@ -4,7 +4,9 @@ about: Endorse yourself or someone else for a notable contribution to the projec
 ---
 
 ## Description
-Thank you for your interest in contributing to the gno.land project and joining the [Game of Realms](https://github.com/gnolang/game-of-realms/)! This template will guide you in documenting your contributions to our ecosystem. Fill out as much
+Thank you for your interest in contributing to the gno.land project and joining the [Game of Realms](https://github.com/gnolang/game-of-realms/)! This template will guide you in documenting your contributions to our ecosystem. Fill out in as many details as possible. 
+
+If you are submitting a recommendation on behalf of someone else's contributions. Please add your details in the issue too, and continue filling out the information to explain why you are recommending the contributions and contributor as 'notable.' 
 
 ## Contributor Details
 - **GitHub Username**: `[Your GitHub Username]`
@@ -23,7 +25,7 @@ Thank you for your interest in contributing to the gno.land project and joining 
 ## Contribution Description
 
 ### Overview
-Describe the goal of your contribution and how it aligns with the goals of gno.land.
+Describe the goal and results of your contribution and how it aligns with the goals of gno.land.
 `[Write a brief overview here]`
 
 ### Key Changes & Impact
