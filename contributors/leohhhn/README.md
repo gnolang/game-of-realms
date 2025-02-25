@@ -1,5 +1,4 @@
-# Lav Leon Hudak (leohhhn)
-
-DevRel Engineer @ gno.land, since Sept 2023.
-
-GitHub handle: [@leohhhn](https://github.com/leohhhn)
+# leohhhn
+## Notable Contributions
+- [gnolang/gno#1468](https://github.com/gnolang/gno/pull/1468)## Links:
+- github: [@leohhhn](https://github.com/leohhhn)
